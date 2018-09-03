@@ -16,8 +16,8 @@
     <?php include "inc/nav.php"?>
 
         <main>
-          <form method="post">
-            <input type="text" placeholder="identifiant">
+
+          <form method="post" action="user.php">            <input type="text" placeholder="identifiant">
             <input type="password" placeholder="mot de passe">
             <input type="submit" name="connexiob">
             <input type="reset" name="reset">
