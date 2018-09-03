@@ -60,6 +60,7 @@ form{
   flex-direction: column;
   width: 300px;
   margin:auto;
+
 }
 
 .btnframe{
@@ -87,4 +88,6 @@ form{
     background-color : #BBBBBB;
 }
 .form{
+  position: relative;
+  top:25%;
 }
