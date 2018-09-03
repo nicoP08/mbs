@@ -17,6 +17,7 @@
 
         <main class="mainframe">
 
+          <div class="form">
           <h2>CONNEXION</h2>
 
           <form method="post" action="user.php">
@@ -25,7 +26,7 @@
             <input type="submit" name="connexiob">
             <input type="reset" name="reset">
           </form>
-
+        </div>
         </main>
 
     <?php include "inc/footer.php"?>
