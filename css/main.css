@@ -82,8 +82,9 @@ form{
     width : 100%;
     border : none;
     border-bottom : 1px solid #CFCFCF;
+    border-radius: 5px;
     margin-top : 10px;
-    background-color : #CFCFCF;
+    background-color : #CFCFCf;
 }
 
 .txtfield:hover,.txtfield:focus{
