@@ -12,8 +12,8 @@
 </head>
 
 <body>
-    <?php include inc/header.php?>
-    <?php include inc/nav.php?>
+    <?php include "inc/header.php"?>
+    <?php include "inc/nav.php"?>
 
         <main>
           <form method="post">
@@ -24,7 +24,7 @@
           </form>
         </main>
 
-    <?php include inc/footer.php?>
+    <?php include "inc/footer.php"?>
 </body>
 
 </html>
