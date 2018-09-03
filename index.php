@@ -17,6 +17,8 @@
 
         <main class="mainframe">
 
+          <h2>CONNEXION</h2>
+
           <form method="post" action="user.php">
             <input type="text" placeholder="identifiant">
             <input type="password" placeholder="mot de passe">
