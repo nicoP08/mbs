@@ -20,10 +20,10 @@
           <form method="post" action="user.php">
             <input type="text" placeholder="identifiant">
             <input type="password" placeholder="mot de passe">
-            <input type="submit" name="connexiob">
+            <input type="submit" name="connexion">
             <input type="reset" name="reset">
           </form>
-          
+
         </main>
 
     <?php include "inc/footer.php"?>
