@@ -6,6 +6,7 @@ h2{
   font-size: 30px;
   font-weight: bold;
   text-align: center;
+
 }
 /*HEADER*/
 
@@ -84,4 +85,6 @@ form{
 .txtfield:hover,.txtfield:focus{
     border-bottom : 1px solid #111111;
     background-color : #BBBBBB;
+}
+.form{
 }

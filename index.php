@@ -17,6 +17,7 @@
 
         <main class="mainframe">
 
+          <div class="form">
           <h2>CONNEXION</h2>
 
           <form method="post" action="user.php">
@@ -30,7 +31,7 @@
             </div>
 
           </form>
-
+        </div>
         </main>
 
     <?php include "inc/footer.php"?>
