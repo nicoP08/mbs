@@ -49,6 +49,9 @@ h2{
     width : 100%;
     height : calc(100vh - 250px);
     background-color : #AAAAAA;
+    display :flex;
+    flex-direction : column;
+    justify-content: center;
 }
 
 /*FIN MAIN*/
@@ -87,7 +90,7 @@ form{
     border-bottom : 1px solid #111111;
     background-color : #BBBBBB;
 }
-.form{
+/*.form{
   position: relative;
   top:25%;
-}
+}*/
