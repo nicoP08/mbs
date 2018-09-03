@@ -15,7 +15,7 @@
     <?php include "inc/header.php"?>
     <?php include "inc/nav.php"?>
 
-      <!--  <main class="mainframe">
+      <main class="mainframe">
 
           <div class="form">
           <h2>CONNEXION</h2>
@@ -30,10 +30,9 @@
                 <input class="btnform" type="reset" name="reset">
             </div>
 
-          </form>-->
+          </form>
 
-        <h1>TU EST MORT</h1>
-          <img src="img/rambo.gif">
+        
 
         </div>
         </main>
