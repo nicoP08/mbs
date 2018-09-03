@@ -16,7 +16,7 @@
     <?php include "inc/nav.php"?>
 
         <main>
-
+          <h2> CONNEXION</h2>
           <form method="post" action="user.php">            <input type="text" placeholder="identifiant">
             <input type="password" placeholder="mot de passe">
             <input type="submit" name="connexiob">
