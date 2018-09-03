@@ -15,7 +15,7 @@
     <?php include "inc/header.php"?>
     <?php include "inc/nav.php"?>
 
-        <main>
+        <main class="mainframe">
         </main>
 
     <?php include "inc/footer.php"?>
