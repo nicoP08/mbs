@@ -15,13 +15,15 @@
     <?php include "inc/header.php"?>
     <?php include "inc/nav.php"?>
 
-        <main>
-          <h2> CONNEXION</h2>
-          <form method="post" action="user.php">            <input type="text" placeholder="identifiant">
+        <main class="mainframe">
+
+          <form method="post" action="user.php">
+            <input type="text" placeholder="identifiant">
             <input type="password" placeholder="mot de passe">
             <input type="submit" name="connexiob">
             <input type="reset" name="reset">
           </form>
+          
         </main>
 
     <?php include "inc/footer.php"?>
