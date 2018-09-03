@@ -60,3 +60,28 @@ form{
   width: 300px;
   margin:auto;
 }
+
+.btnframe{
+    width :100%;
+    display :flex;
+    flex-direction : row;
+    margin-top : 20px;
+}
+
+.btnform{
+    height : 30px;
+    width : 50%;
+}
+.txtfield{
+    height : 30px;
+    width : 100%;
+    border : none;
+    border-bottom : 1px solid #CFCFCF;
+    margin-top : 10px;
+    background-color : #CFCFCF;
+}
+
+.txtfield:hover,.txtfield:focus{
+    border-bottom : 1px solid #111111;
+    background-color : #BBBBBB;
+}
