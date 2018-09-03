@@ -15,7 +15,7 @@
     <?php include "inc/header.php"?>
     <?php include "inc/nav.php"?>
 
-      <!--  <main class="mainframe">
+        <main class="mainframe">
 
           <div class="form">
           <h2>CONNEXION</h2>
@@ -23,18 +23,14 @@
           <form method="post" action="user.php">
             <input class="txtfield" type="text" placeholder="identifiant">
             <input class="txtfield" type="password" placeholder="mot de passe">
-
+            
             <div class="btnframe">
 
                 <input class="btnform" type="submit" name="connexion">
                 <input class="btnform" type="reset" name="reset">
             </div>
 
-          </form>-->
-
-        <h1>TU EST MORT</h1>
-          <img src="img/rambo.gif">
-
+          </form>
         </div>
         </main>
 
