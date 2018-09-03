@@ -15,7 +15,7 @@
     <?php include "inc/header.php"?>
     <?php include "inc/nav.php"?>
 
-        <main class="mainframe">
+      <main class="mainframe">
 
           <div class="form">
           <h2>CONNEXION</h2>
@@ -31,6 +31,9 @@
             </div>
 
           </form>
+
+        
+
         </div>
         </main>
 
