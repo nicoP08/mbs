@@ -21,10 +21,15 @@
           <h2>CONNEXION</h2>
 
           <form method="post" action="user.php">
-            <input type="text" placeholder="identifiant">
-            <input type="password" placeholder="mot de passe">
-            <input type="submit" name="connexiob">
-            <input type="reset" name="reset">
+            <input class="txtfield" type="text" placeholder="identifiant">
+            <input class="txtfield" type="password" placeholder="mot de passe">
+            
+            <div class="btnframe">
+
+                <input class="btnform" type="submit" name="connexion">
+                <input class="btnform" type="reset" name="reset">
+            </div>
+
           </form>
         </div>
         </main>
