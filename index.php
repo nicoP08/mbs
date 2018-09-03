@@ -23,7 +23,7 @@
           <form method="post" action="user.php">
             <input class="txtfield" type="text" placeholder="identifiant">
             <input class="txtfield" type="password" placeholder="mot de passe">
-
+            
             <div class="btnframe">
 
                 <input class="btnform" type="submit" name="connexion">
