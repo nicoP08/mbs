@@ -12,13 +12,28 @@ h2{
 
 .mainhead{
     width : 100%;
-    height : 150px;
+    height : 200px;
     background-color : #777777;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
 }
 
 .pictlogo{
-    height : 150px;
+    height : 200px;
     width : auto;
+}
+
+.pictbox{
+    width : 350px;
+    height : 200px;
+    background-color : #777777;
+}
+
+.formbox{
+    width : 350px;
+    height : 200px;
+    background-color : #888888;
 }
 
 /*FIN HEADER*/
@@ -36,23 +51,136 @@ h2{
 /*NAV*/
 
 .mainnav{
-    width : 100%;
-    height : 50px;
-    background-color : #111111;
+    width : 200px;
+    height : calc(100vh - 250px);
+    background-color : transparent;
+    display : flex;
+    flex-direction :column;
+}
+.menu{
+    display : flex;
+    flex-direction: row;
+    width : 200px;
+    height : 48px;
+    border-top : 1px solid #111111;
+    border-bottom : 1px solid #111111;
+}
+
+.ring{
+    width : 15px;
+    height : 48px;
+    background-image : linear-gradient(#A06800,#070024,#A06800);
+}
+
+.rubrique{
+    width : 185px;
+    height : 48px;
+    background-color : #666666;
+    text-align : center;
+}
+
+.menu:hover .ring{
+    background-image : linear-gradient(#070024,#A06800,#070024);
+}
+
+.menu:hover .rubrique{
+    background-color: #888888;
 }
 
 /*FIN NAV*/
 
 /*MAIN*/
 
-.mainframe{
+.bodyframe{
     width : 100%;
     height : calc(100vh - 250px);
     background-color : #AAAAAA;
     display :flex;
-    flex-direction : column;
+    flex-direction : row;
+    justify-content: right;
+}
+
+.mainframe{
+    width : calc(100% - 200px);
+    height : calc(100vh - 250px);
+    background-color : #AAAAAA;
+    display :flex;
+    flex-direction : row;
     justify-content: center;
 }
+
+.warning{
+    width : 80%;
+    height : 45px;
+    margin-top : 50px;
+    margin-bottom : 50px;
+    border : 5px double #880000;
+    background-color : #BBBBBB;
+    overflow: hidden;
+}
+
+.warningtxt{
+    font-size : 2rem;
+    display : block;
+	-webkit-animation:linear marqueelike 20s infinite ;
+	-moz-animation:linear marqueelike 20s infinite ;
+	-o-animation:linear marqueelike 20s infinite ;
+	-ms-animation:linear marqueelike 20s infinite ;
+    animation:linear marqueelike 20s infinite ;
+    margin-left : -100%;
+    padding-top : 6px;
+    color : #880000;
+}
+
+/* Texte défilant */
+
+.defileParent {
+	display: block;
+	margin: 3em auto;
+	position: relative;
+	table-layout: fixed;
+}
+.defile {
+	display:block;
+	-webkit-animation:linear marqueelike 20s infinite ;
+	-moz-animation:linear marqueelike 20s infinite ;
+	-o-animation:linear marqueelike 20s infinite ;
+	-ms-animation:linear marqueelike 20s infinite ;
+	animation:linear marqueelike 20s infinite ;
+	margin-left:-100%;
+	padding:0 5px;
+	text-align:left;
+	height:25px;
+}
+
+
+.defile:after {
+	content:attr(data-text);
+	position:absolute;
+	white-space:nowrap;
+	padding-left:10px;
+}
+
+@-webkit-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-moz-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-o-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@-ms-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
+@keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-100%;}
+ }
 
 /*FIN MAIN*/
 

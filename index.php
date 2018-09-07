@@ -13,29 +13,18 @@
 
 <body>
     <?php include "inc/header.php"?>
-    <?php include "inc/nav.php"?>
+    <div class="bodyframe">
+        <?php include "inc/nav.php"?>
 
-      <main class="mainframe">
-
-          <div class="form">
-          <h2>CONNEXION</h2>
-
-          <form method="post" action="user.php">
-            <input class="txtfield" type="text" placeholder="identifiant">
-            <input class="txtfield" type="password" placeholder="mot de passe">
-            
-            <div class="btnframe">
-
-                <input class="btnform" type="submit" name="connexion">
-                <input class="btnform" type="reset" name="reset">
+        <main class="mainframe">
+            <div class="warning defileParent">
+                <span class="warningtxt defile" data-text="TEST INFO IMPORTANTES 1/ TEST INFO IMPORTANTES 2/ TEST INFO IMPORTANTES 3/ TEST INFO IMPORTANTES 4 / TEST INFO IMPORTANTES 5/">TEST INFO IMPORTANTES 1/ TEST INFO IMPORTANTES 2/ TEST INFO IMPORTANTES 3/ TEST INFO IMPORTANTES 4/ TEST INFO IMPORTANTES 5/</span>
             </div>
-
-          </form>
-
-        
+            <div>
+            </div>
+        </main>
 
         </div>
-        </main>
 
     <?php include "inc/footer.php"?>
 </body>
