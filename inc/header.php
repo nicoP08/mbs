@@ -2,7 +2,9 @@
     <div class="pictbox">
     <img src="img/logo.png" alt="logo Etoile Champenoise" class="pictlogo">
     </div>
-    <div class="formbox">
+    <?php
+    if(!isset($_SESSION['logconf'])){
+    echo '<div class="formbox">
     <h2>CONNEXION</h2>
 
 <form method="post" action="user.php">
@@ -14,5 +16,7 @@
       <input class="btnform" type="submit" name="connexion">
       <input class="btnform" type="reset" name="reset">
   </div>
-    </div>
+    </div>';
+    }
+    ?>
 </header>

@@ -2,7 +2,7 @@
 <html lang="fr">
 
 <head>
-    <title>Réglements</title>
+    <title>Tarifs</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Etoile Champenoise">
@@ -28,5 +28,5 @@
 
     <?php include "inc/footer.php"?>
 </body>
-<script src="js/intreg.js"></script>
+<script src="js/inttar.js"></script>
 </html>

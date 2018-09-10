@@ -1,3 +1,4 @@
+<?php include "inc/co.php"?>
 <!DOCTYPE html>
 <html lang="fr">
 
