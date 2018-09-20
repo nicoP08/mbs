@@ -1,3 +1,4 @@
+<?php include "inc/co.php"?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -8,6 +9,7 @@
     <meta name="description" content="Etoile Champenoise">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/tarifs.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 
@@ -16,11 +18,12 @@
     <div class="bodyframe">
         <?php include "inc/nav.php"?>
 
-        <main class="mainframe">
-            <div class="warning defileParent">
-                <span class="warningtxt defile" data-text="TEST INFO IMPORTANTES 1/ TEST INFO IMPORTANTES 2/ TEST INFO IMPORTANTES 3/ TEST INFO IMPORTANTES 4 / TEST INFO IMPORTANTES 5/">TEST INFO IMPORTANTES 1/ TEST INFO IMPORTANTES 2/ TEST INFO IMPORTANTES 3/ TEST INFO IMPORTANTES 4/ TEST INFO IMPORTANTES 5/</span>
+        <main class="mainframe2">
+            <div id="tf" class="tarifframe" style="display:block">
+            #Put Tarifs 1 Here#
             </div>
-            <div>
+            <div id="ti" class="tarifframe" style="display:none">
+            #Put Tarifs 2 Here# 
             </div>
         </main>
 

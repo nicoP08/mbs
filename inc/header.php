@@ -3,13 +3,13 @@
     <img src="img/logo.png" alt="logo Etoile Champenoise" class="pictlogo">
     </div>
     <?php
-    if(!isset($_SESSION['logconf'])){
+    if(!isset($_SESSION['login'])){
     echo '<div class="formbox">
     <h2>CONNEXION</h2>
 
-<form method="post" action="user.php">
-  <input class="txtfield" type="text" placeholder="identifiant">
-  <input class="txtfield" type="password" placeholder="mot de passe">
+<form method="post" action="#">
+  <input class="txtfield" name="login" type="text" placeholder="identifiant" required>
+  <input class="txtfield" name="password" type="password" placeholder="mot de passe" required>
   
   <div class="btnframe">
 

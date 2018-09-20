@@ -13,13 +13,13 @@
             Répertoire
         </div>
     </div>
-    <a href="reglements.php" class="menu">
+    <div href="reglements.php" class="menu" id="regle0">
         <div class="ring">
         </div>
         <div class="rubrique">
             Réglements
         </div>
-</a>
+</div>
 <div class="menu" style="display:none" id="regle1">
         <div class="ring2">
         </div>
@@ -34,13 +34,13 @@
             Charte réseau
         </div>
     </div>
-    <a href="tarifs.php" class="menu">
+    <div href="tarifs.php" class="menu" id="tarif0">
         <div class="ring">
         </div>
         <div class="rubrique">
             Tarifs
         </div>
-    </a>
+    </div>
     <div class="menu" style="display:none" id="tarif1">
         <div class="ring2">
         </div>
@@ -55,71 +55,57 @@
             Envois à l'étranger
         </div>
     </div>
-    <div class="menu">
+    <?php
+    if(isset($_SESSION['login'])){
+    echo '<div class="menu">
         <div class="ring">
         </div>
         <div class="rubrique">
             Espace Suivis
         </div>
-    </div>
-    <?php
-    if(isset($_SESSION['logconf'])){
-    echo '<div class="menu">
+    </div>';
+        $req = $dbh->prepare('SELECT type FROM login WHERE login = ?');
+        $req->execute(array($_SESSION['login']));
+            while ($donnees = $req->fetch()){
+        $var =  $donnees['type'];
+        }
+        if ($var == 2){
+    echo '<div class="menu" style="display:flex" id="adm1">
         <div class="ring">
         </div>
         <div class="rubrique">
-            Espace Personnel
-        </div>
-    </div>
-    <div class="menu" style="display:none">
-        <div class="ring2">
-        </div>
-        <div class="rubrique2">
-            Détails Compte
-        </div>
-    </div>
-    <div class="menu" style="display:none">
-        <div class="ring2">
-        </div>
-        <div class="rubrique2">
-            Gestion Compte
-        </div>
-    </div>
-    <div class="menu" style="display:none">
-        <div class="ring2">
-        </div>
-        <div class="rubrique2">
             Gestion Administrateur
         </div>
     </div>
-    <div class="menu" style="display:none">
-        <div class="ring3">
-        </div>
-        <div class="rubrique3">
-            Gestion Comptes
-        </div>
-    </div>
-    <div class="menu" style="display:none">
-        <div class="ring3">
-        </div>
-        <div class="rubrique3">
-            Création Comptes
-        </div>
-    </div>
-    <div class="menu" style="display:none">
-        <div class="ring3">
-        </div>
-        <div class="rubrique3">
-            Gestion des messages importants
-        </div>
-    </div>
-    <div class="menu" style="display:none">
+    <div class="menu" style="display:none" id="adm2">
         <div class="ring2">
         </div>
         <div class="rubrique2">
-            Déconnexion
+            Gestion Comptes
+        </div>
+    </div>
+    <div class="menu" style="display:none" id="adm3">
+        <div class="ring2">
+        </div>
+        <div class="rubrique2">
+            Création Comptes
+        </div>
+    </div>
+    <div class="menu" style="display:none" id="adm4">
+        <div class="ring2">
+        </div>
+        <div class="rubrique2">
+            Gestion des messages importants
         </div>
     </div>';
+    }
+    echo '<a href="logout.php" class="menu">
+        <div class="ring">
+        </div>
+        <div class="rubrique">
+            Déconnexion
+        </div>
+    </a>';
     }
     ?>
 </nav>

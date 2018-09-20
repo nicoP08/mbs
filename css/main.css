@@ -67,6 +67,7 @@ a{
     height : 48px;
     border-top : 1px solid #111111;
     border-bottom : 1px solid #111111;
+    cursor : pointer;
 }
 
 .ring{
@@ -94,21 +95,6 @@ a{
     width : 170px;
     height : 48px;
     background-color : #777777;
-    text-align : center;
-    text-decoration : none;
-    color : #111111;
-}
-
-.ring3{
-    width : 45px;
-    height : 48px;
-    background-image : linear-gradient(#A06800,#070024,#A06800);
-}
-
-.rubrique3{
-    width : 155px;
-    height : 48px;
-    background-color : #888888;
     text-align : center;
     text-decoration : none;
     color : #111111;
@@ -148,15 +134,13 @@ a{
     height : calc(100vh - 250px);
     background-color : #AAAAAA;
     display :flex;
-    flex-direction : row;
-    justify-content: center;
+    flex-direction : column;
 }
 
 .warning{
-    width : 80%;
+    width : 90%;
     height : 45px;
     margin-top : 50px;
-    margin-bottom : 50px;
     border : 5px double #880000;
     background-color : #BBBBBB;
     overflow: hidden;
@@ -178,8 +162,8 @@ a{
 /* Texte défilant */
 
 .defileParent {
-	display: block;
-	margin: 3em auto;
+    display: block;
+    margin-left : 5%;
 	position: relative;
 	table-layout: fixed;
 }
@@ -268,4 +252,18 @@ form{
   width:  400px;
   height: 200px;
   margin: auto;
+}
+
+
+/*MAIN FRAME*/
+
+.intframe{
+    width : calc(95% - 200px);
+    margin-left : 2.5%;
+    margin-top : 40px;
+    margin-bottom : 40px;
+    background-color : #666666;
+    position : absolute;
+    height : calc(100vh - 330px);
+    overflow : auto;
 }
