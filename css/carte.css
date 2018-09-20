@@ -1,0 +1,15 @@
+svg{
+  width: 400px;
+  height: 500px;
+}
+
+.contenu{
+  display: flex;
+}
+
+li{
+  list-style-type: none;
+}
+.aisne::hver{
+  display:none;
+}
