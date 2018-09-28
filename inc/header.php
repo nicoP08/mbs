@@ -7,7 +7,7 @@
     echo '<div class="formbox">
     <h2>CONNEXION</h2>
 
-<form method="post" action="#">
+<form class="formlogin" method="post" action="#">
   <input class="txtfield" name="login" type="text" placeholder="identifiant" required>
   <input class="txtfield" name="password" type="password" placeholder="mot de passe" required>
   

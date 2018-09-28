@@ -1,12 +1,14 @@
-<nav class="mainnav">
-    <div class="menu">
+<?php
+    if(isset($_SESSION['login'])){
+echo '<nav class="mainnav">
+    <div class="menu" id="carte">
         <div class="ring">
         </div>
         <div class="rubrique">
             Carte Intéractive
         </div>
     </div>
-    <div class="menu">
+    <div class="menu" id="repertoire">
         <div class="ring">
         </div>
         <div class="rubrique">
@@ -41,23 +43,7 @@
             Tarifs
         </div>
     </div>
-    <div class="menu" style="display:none" id="tarif1">
-        <div class="ring2">
-        </div>
-        <div class="rubrique2">
-            Envois en France
-        </div>
-    </div>
-    <div class="menu" style="display:none" id="tarif2">
-        <div class="ring2">
-        </div>
-        <div class="rubrique2">
-            Envois à l'étranger
-        </div>
-    </div>
-    <?php
-    if(isset($_SESSION['login'])){
-    echo '<div class="menu">
+    <div class="menu" id="suivis">
         <div class="ring">
         </div>
         <div class="rubrique">
@@ -88,7 +74,7 @@
         <div class="ring2">
         </div>
         <div class="rubrique2">
-            Création Comptes
+            Gestion Messages Pré-définis
         </div>
     </div>
     <div class="menu" style="display:none" id="adm4">

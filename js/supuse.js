@@ -7,8 +7,7 @@ var adm1 = document.getElementById("adm1");
 var adm2 = document.getElementById("adm2");
 var adm3 = document.getElementById("adm3");
 var adm4 = document.getElementById("adm4");
-var esr = document.getElementById("esr");
-var rer = document.getElementById("rer");
+var suu = document.getElementById("suu");
 
 
 reg0.addEventListener("click", regf);
@@ -79,6 +78,7 @@ function ci1f(){
     cc.style.display = "none";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 
 function re1f(){
@@ -92,7 +92,7 @@ function re1f(){
     cc.style.display = "none";
     mi.style.display = "none";
 
-
+    suu.style.display = "none";
 }
 
 function reg1f(){
@@ -106,6 +106,7 @@ function reg1f(){
     cc.style.display = "none";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 function reg2f(){
     ci.style.display = "none";
@@ -118,6 +119,7 @@ function reg2f(){
     cc.style.display = "none";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 function tarf(){
     ci.style.display = "none";
@@ -130,6 +132,7 @@ function tarf(){
     cc.style.display = "none";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 function esp1f(){
     ci.style.display = "none";
@@ -142,6 +145,7 @@ function esp1f(){
     cc.style.display = "none";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 function adm2f(){
     ci.style.display = "none";
@@ -154,6 +158,7 @@ function adm2f(){
     cc.style.display = "none";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 function adm3f(){
     ci.style.display = "none";
@@ -166,6 +171,7 @@ function adm3f(){
     cc.style.display = "inline-block";
     mi.style.display = "none";
 
+    suu.style.display = "none";
 }
 function adm4f(){
     ci.style.display = "none";
@@ -178,6 +184,7 @@ function adm4f(){
     cc.style.display = "none";
     mi.style.display = "inline-block";
 
+    suu.style.display = "none";
 }
 
 /*L3*/
