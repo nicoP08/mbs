@@ -1,15 +1,354 @@
-svg{
-  width: 400px;
-  height: 500px;
+/*structure HTML*/
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
-.contenu{
-  display: flex;
+html {
+    background-color: #DDDDDD;
+    font-family: "Arvo", Helvetica;
 }
 
-li{
-  list-style-type: none;
+.frame {
+    text-align: center;
 }
-.aisne::hver{
-  display:none;
+
+.titre {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.mainframe {
+    width: 50%;
+    margin-left: 0%;
+}
+
+.divblockimg {
+    display: inline-block;
+    position: absolute;
+    width: 500px;
+    z-index: 1;
+}
+
+.visible {
+    display: none;
+    min-width: 320px;
+    text-align: left;
+}
+
+.posimg {
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    top: 0;
+    width: 600px;
+}
+
+p{
+  font-weight: normal;
+}
+
+
+/*Pastilles*/
+
+.forme {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+}
+
+.forme:hover {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: rgba(255, 255, 0, 0.5);
+    border-radius: 25px;
+}
+
+
+/*Positions pastilles*/
+
+#r1 {
+    left: 380px;
+    top: 180px;
+}
+
+#r2 {
+    left: 428px;
+    top: 185px;
+}
+
+#r3 {
+    left: 409px;
+    top: 259px;
+}
+
+#r4 {
+    left: 409px;
+    top: 220px;
+}
+
+#r5 {
+    left: 453px;
+    top: 278px;
+}
+
+#r6 {
+    left: 495px;
+    top: 240px;
+}
+
+#r7 {
+    left: 520px;
+    top: 220px;
+}
+
+#r8 {
+    left:376px;
+    top: 140px;
+}
+
+#r9 {
+    left:330px;
+    top: 192px;
+}
+
+#r10 {
+    left:565px;
+    top: 232px;
+}
+#r11 {
+    left:550px;
+    top: 295px;
+}
+
+#r12 {
+    left:270px;
+    top: 180px;
+}
+#r13 {
+  left: 305px;
+  top: 230px;
+}
+#r14{
+  left:335px;
+  top:165px;
+}
+#r15{
+  left: 515px;
+  top:275px;
+}
+#r16{
+left:385px;
+top:300px;
+}
+#r17{
+left:320px;
+top:215px;
+}
+#r18{
+  left: 269px;
+  top:215px;
+}
+#r19{
+  left:275px;
+  top:585px;
+}
+#r20{
+  left:210px;
+  top:484px;
+}
+#r21{
+  left:240px;
+  top:420px;
+}
+#r22{
+  left:430px;
+  top:425px;
+}
+#r23{
+  left:160px;
+  top:115px;
+}
+#r24{
+  left:355px;
+  top:240px;
+}
+
+#r25{
+  left: 190px;
+  top: 140px;
+}
+
+#r26{
+  left:445px;
+  top:565px;
+}
+/*posmatr*/
+
+.posr {
+    position: absolute;
+    z-index: 3;
+}
+
+.post1 {
+    position: relative;
+    z-index: 2;
+}
+
+.post2 {
+    position: absolute;
+    z-index: 2;
+}
+
+
+/*position textes*/
+
+#p1 {
+    left: 250px;
+    top: 150px;
+}
+
+#p2 {
+    left: 200px;
+    top: 145px;
+}
+
+#p3 {
+    left: 240px;
+    top: 50px;
+}
+
+#p4 {
+    left: 230px;
+    top: 100px;
+}
+
+#p5 {
+    left: 200px;
+    top: 50px;
+}
+
+#p6 {
+    left: 150px;
+    bottom:-200px;
+}
+
+#p7 {
+    left: 120px;
+    bottom: -2!s  00px;
+}
+#p8 {
+    left: 314px;
+    bottom: 104px;
+}
+#p9 {
+    left: 310px;
+    bottom: -200px;
+}
+#p10 {
+    left: 80px;
+    bottom: -200px;
+}
+#p11 {
+    left: 100px;
+    bottom: -140px;
+}
+#p12 {
+    left: 375px;
+    top: 140px;
+}
+#p13{
+  left: 324px;
+  top: 314px;
+}
+#p14{
+  left: 326px;
+  top: 150px;
+}
+#p15{
+  left: 150px;
+  top: 45px;
+}
+#p16{
+  left: 300px;
+  top: 0px;
+}
+#p17{
+  left: 332px;
+  top: 100px;
+}
+#p18{
+  left:360px;
+  top: -50px;
+}
+#p19{
+  left:380px;
+  top:-250px;
+}
+#p20{
+  left:410px;
+  top:-170px;
+}
+
+#p21{
+  left:400px;
+  top:-100px;
+}
+#p22{
+  left:200px;
+  top:-100px;
+}
+
+#p23{
+  left:500px;
+  top:200px;
+}
+#p24{
+  left:300px;
+  top:80px;
+}
+
+#p25{
+  left:450px;
+  top: 180px;
+}
+#p26{
+  left:200px;
+  top:-250px;
+}
+
+/*hover textes*/
+
+#r1:hover #p1,
+#r2:hover #p2,
+#r3:hover #p3,
+#r4:hover #p4,
+#r5:hover #p5,
+#r6:hover #p6,
+#r7:hover #p7,
+#r8:hover #p8,
+#r9:hover #p9,
+#r10:hover #p10,
+#r11:hover #p11,
+#r12:hover #p12,
+#r13:hover #p13,
+#r14:hover #p14,
+#r15:hover #p15,
+#r16:hover #p16,
+#r17:hover #p17,
+#r18:hover #p18,
+#r19:hover #p19,
+#r20:hover #p20,
+#r21:hover #p21,
+#r22:hover #p22,
+#r23:hover #p23,
+#r24:hover #p24,
+#r25:hover #p25,
+#r26:hover #p26
+{
+    display: block;
 }
