@@ -7,10 +7,12 @@
     <title> Carte intéractive </title>
     <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" href="css/carte.css">
+    <link rel="stylesheet" href="css/main.css">
 
 </head>
 
 <body>
+  <?php include "inc/header.php"?>
     <div class="frame">
         <header>
             <h1 class="titre">
@@ -254,7 +256,7 @@
 
 
                 </div>
-              </div>
+              </div>  
         </main>
     </div>
 
