@@ -1,4 +1,4 @@
-
+<?php include "inc/co.php"?>
 <!DOCTYPE HTML>
 <html>
 
@@ -37,7 +37,7 @@
                 </div>
                 <div class="forme posr" id="r2">
                     <div class="visible post1" id="p2">
-                        <h3>Adennes (08)</h3><br>
+                        <h3>Ardennes (08)</h3><br>
                         <p><strong> MBS</strong><br>
                           Zone Industrielle <br>
                           08350 Donchery<br>

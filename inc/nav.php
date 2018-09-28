@@ -1,13 +1,13 @@
 <?php
     if(isset($_SESSION['login'])){
 echo '<nav class="mainnav">
-    <div class="menu" id="carte">
+    <a href="carte.php" class="menu" id="carte">
         <div class="ring">
         </div>
         <div class="rubrique">
             Carte Intéractive
         </div>
-    </div>
+    </a>
     <div class="menu" id="repertoire">
         <div class="ring">
         </div>

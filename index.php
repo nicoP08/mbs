@@ -112,22 +112,31 @@
                     <input type="hidden" name="token" value="repres">
                     <input class="formbtn" type="submit" value="RECHERCHE">
                 </form>
+                <p class="txtmed" >Téléchargez la liste complète <a href="data/repertoire-2018.xlsx" class="y txtmed">ICI</a> ! </p>
             </div>
 
             </div>
             <div id="ri" class="intframe" style="display:none">
             <div class="fillframe">
-                    <i class="txtbig">REGLEMENT INTERIEUR</i>
+                    <i class="txtbig mb">REGLEMENT INTERIEUR</i>
+                    <br>
+                    <p class="txtmed" >Téléchargez le règlement intérieur <a href="data/reglement-2017.pdf" class="y txtmed">ICI</a> ! </p>
             </div>
             </div>
             <div id="cr" class="intframe" style="display:none">
             <div class="fillframe">
-                    <i class="txtbig">CHARTE RESEAU</i>
+                    <i class="txtbig mb">CHARTE RESEAU</i>
+                    <br>
+                    <p class="txtmed" >Téléchargez la charte réseau <a href="data/charte-2017.pdf" class="y txtmed">ICI</a> ! </p>
             </div>
             </div>
             <div id="ta" class="intframe" style="display:none">
             <div class="fillframe">
-                    <i class="txtbig">TARIFS</i>
+                    <i class="txtbig mb">TARIFS</i>
+                    <br>
+                    <p class="txtmed mb" >Téléchargez les tarifs Traction <a href="data/tarif-t-2018.pdf" class="y txtmed">ICI</a> ! </p>
+                    <br>
+                    <p class="txtmed mb" >Téléchargez les tarifs Distribution <a href="data/tarif-d-2018.pdf" class="y txtmed">ICI</a> ! </p>
             </div>
             </div>';
             echo '<div id="es" class="intframe" style="display:none">
